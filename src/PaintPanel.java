@@ -7,12 +7,22 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class PaintPanel extends JPanel {
+    RunButtonPanel runButtonPanel = new RunButtonPanel();
     ArrayList<Shape> shapes = new ArrayList<>();
     Point previousMouseLocation = null;
     Shape selectedShape = null;
+    Shape previousSelectedShape = null;
     Thread animationThread = null;
     boolean animating;
     ShapePropertiesPanel shapePropertiesPanel = new ShapePropertiesPanel(selectedShape , this);
+
+    public Shape getSelectedShape() {
+        return selectedShape;
+    }
+
+    public void setSelectedShape(Shape selectedShape) {
+        this.selectedShape = selectedShape;
+    }
 
     public boolean isAnimating() {
         return animating;
@@ -39,7 +49,7 @@ public class PaintPanel extends JPanel {
 //        System.out.println("running paintpanel");
         setPreferredSize(new Dimension(500,500));
         setBackground(Color.GRAY);
-
+        runButtonPanel.shapes = this.shapes;
         animating=false;
 
         animationThread=new Thread(new Runnable() {
@@ -108,12 +118,62 @@ public class PaintPanel extends JPanel {
                 while(iterator.hasNext()) {
                     Shape cur = iterator.next();
                     if(cur.IsIn( previousMouseLocation )) {
-                        selectedShape = cur;
+                        setSelectedShape(cur);
+                        previousSelectedShape = cur;
                         System.out.println("selected");
+                        System.out.println(selectedShape);
 //                        shapePropertiesPanel.addPanel( cur.getPropertiesPanel() );
                         shapePropertiesPanel.shape = cur;
                         shapePropertiesPanel.xTextField.setText(String.valueOf(cur.getLocation().getX()));
                         shapePropertiesPanel.yTextField.setText(String.valueOf(cur.getLocation().getY()));
+                        if ( cur instanceof Rectangle){
+                            shapePropertiesPanel.remove(shapePropertiesPanel.radiusLabel);
+                            shapePropertiesPanel.remove(shapePropertiesPanel.radiusTextArea);
+                            shapePropertiesPanel.remove(shapePropertiesPanel.lineLabel);
+                            shapePropertiesPanel.remove(shapePropertiesPanel.LineTextArea);
+                            shapePropertiesPanel.add(shapePropertiesPanel.heightLabel);
+                            shapePropertiesPanel.add(shapePropertiesPanel.HeightTextArea);
+                            shapePropertiesPanel.add(shapePropertiesPanel.widthLabel);
+                            shapePropertiesPanel.add(shapePropertiesPanel.WidthTextArea);
+                            shapePropertiesPanel.add(shapePropertiesPanel.empty);
+                            shapePropertiesPanel.add(shapePropertiesPanel.applyButton);
+                            shapePropertiesPanel.HeightTextArea.setText(String.valueOf(((Rectangle) cur).getHeight()));
+                            shapePropertiesPanel.WidthTextArea.setText(String.valueOf(((Rectangle) cur).getWidth()));
+                            shapePropertiesPanel.revalidate();
+                            shapePropertiesPanel.repaint();
+                        }
+                        if ( cur instanceof Circle){
+                            shapePropertiesPanel.remove(shapePropertiesPanel.heightLabel);
+                            shapePropertiesPanel.remove(shapePropertiesPanel.widthLabel);
+                            shapePropertiesPanel.remove(shapePropertiesPanel.WidthTextArea);
+                            shapePropertiesPanel.remove(shapePropertiesPanel.HeightTextArea);
+                            shapePropertiesPanel.remove(shapePropertiesPanel.lineLabel);
+                            shapePropertiesPanel.remove(shapePropertiesPanel.LineTextArea);
+                            shapePropertiesPanel.add(shapePropertiesPanel.radiusLabel);
+                            shapePropertiesPanel.add(shapePropertiesPanel.radiusTextArea);
+                            shapePropertiesPanel.add(shapePropertiesPanel.empty);
+                            shapePropertiesPanel.add(shapePropertiesPanel.applyButton);
+                            shapePropertiesPanel.radiusTextArea.setText(String.valueOf(((Circle) cur).radius));
+                            shapePropertiesPanel.revalidate();
+                            shapePropertiesPanel.repaint();
+                        }
+                        if ( cur instanceof Line ){
+                            shapePropertiesPanel.remove(shapePropertiesPanel.radiusLabel);
+                            shapePropertiesPanel.remove(shapePropertiesPanel.radiusTextArea);
+                            shapePropertiesPanel.remove(shapePropertiesPanel.heightLabel);
+                            shapePropertiesPanel.remove(shapePropertiesPanel.widthLabel);
+                            shapePropertiesPanel.remove(shapePropertiesPanel.WidthTextArea);
+                            shapePropertiesPanel.remove(shapePropertiesPanel.HeightTextArea);
+                            shapePropertiesPanel.add(shapePropertiesPanel.lineLabel);
+                            shapePropertiesPanel.add(shapePropertiesPanel.LineTextArea);
+                            shapePropertiesPanel.add(shapePropertiesPanel.empty);
+                            shapePropertiesPanel.add(shapePropertiesPanel.applyButton);
+                            Point dif = ((Line) cur).endPoint.subtract(((Line) cur).startPoint);
+                            shapePropertiesPanel.LineTextArea.setText( dif.toString());
+                            shapePropertiesPanel.revalidate();
+                            shapePropertiesPanel.repaint();
+
+                        }
 
                     }
                 }
@@ -121,6 +181,8 @@ public class PaintPanel extends JPanel {
 
             @Override
             public void mouseReleased(MouseEvent e) {
+                shapePropertiesPanel.xTextField.setText(String.valueOf(selectedShape.getLocation().getX()));
+                shapePropertiesPanel.yTextField.setText(String.valueOf(selectedShape.getLocation().getY()));
                 previousMouseLocation=null;
                 selectedShape=null;
             }
@@ -151,6 +213,7 @@ public class PaintPanel extends JPanel {
         }
 
     }
+
 
 
 

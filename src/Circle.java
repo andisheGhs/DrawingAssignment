@@ -9,7 +9,7 @@ public class Circle extends Shape {
         super(location);
         this.radius = radius;
 //        System.out.println("new circle" );
-        setPropertiesPanel(new CirclePropertiesPanel(this , 100));
+//        setPropertiesPanel(new CirclePropertiesPanel(this , 100));
 
     }
 
@@ -48,7 +48,6 @@ public class Circle extends Shape {
 //        System.out.println("circle render");
         g2.setColor( solidColor );
         g2.fillOval((int)( location.x - radius ),(int)( location.y - radius),(int)radius * 2,(int)radius * 2);
-
         Stroke stroke = g2.getStroke();
         g2.setStroke(new BasicStroke(thickness));
         g2.setColor(borderColor);

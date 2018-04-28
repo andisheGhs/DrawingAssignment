@@ -14,14 +14,14 @@ public class MainFrame extends JFrame {
     }
     public void initialize(){
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        setSize(new Dimension(1000 , 1000));
+        setSize(new Dimension(1500 , 1200));
         setLayout(new BorderLayout());
         animationMenuPanel = new AnimationMenuPanel();
-        animationToolsPanel = new AnimationToolsPanel();
         shapePanel = new ShapePanel();
         paintPanel = (PaintPanel) ((ShapePanel) shapePanel).getPaintPanel();
+        animationToolsPanel = new AnimationToolsPanel(paintPanel);
         shapePropertiesPanel = paintPanel.shapePropertiesPanel;
-        runButtonPanel = new RunButtonPanel();
+        runButtonPanel = paintPanel.runButtonPanel;
         MixPanel = new JPanel();
         MixPanel.setPreferredSize(new Dimension(1000 , 200));
         MixPanel.add(animationMenuPanel);

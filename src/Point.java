@@ -39,5 +39,9 @@ public class Point {
     public double getRad() {
         return Math.sqrt(x*x+y*y);
     }
+
+    public String toString(){
+        return "( " + getX() + " , " + getY() + ") ";
+    }
 }
 

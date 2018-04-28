@@ -20,7 +20,7 @@ public class ShapePanel extends JPanel {
 
     public ShapePanel(){
         setPreferredSize(new Dimension(200 , 700));
-        setBackground(Color.RED);
+        setBackground(Color.pink);
         circleButton = new JButton("Circle");
         TriangleButton = new JButton("Triangle");
         RectangleButton = new JButton("Rectangle");
@@ -60,12 +60,12 @@ public class ShapePanel extends JPanel {
         });
 
 
-        LineButton.setPreferredSize(new Dimension(200 , 200));
-        circleButton.setPreferredSize(new Dimension(200 , 200));
-        TriangleButton.setPreferredSize(new Dimension(200 , 200));
-        RectangleButton.setPreferredSize(new Dimension(200 , 200));
+        LineButton.setPreferredSize(new Dimension(200 , 150));
+        circleButton.setPreferredSize(new Dimension(200 , 150));
+        TriangleButton.setPreferredSize(new Dimension(200 , 150));
+        RectangleButton.setPreferredSize(new Dimension(200 , 150));
         add(circleButton);
-        add(TriangleButton);
+//        add(TriangleButton);
         add(RectangleButton);
         add(LineButton);
     }
