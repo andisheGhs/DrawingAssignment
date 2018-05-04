@@ -3,8 +3,6 @@ import java.awt.*;
 public class Circle extends Shape {
     protected double radius = 100;
 
-
-
     public Circle(Point location  , double radius) {
         super(location);
         this.radius = radius;

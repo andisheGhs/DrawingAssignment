@@ -3,33 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="d7031b55-1b71-4ab2-8982-7e5443091e31" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tamrine1AP/Animation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tamrine1AP/Animation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tamrine1AP/AnimationMenuPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tamrine1AP/AnimationMenuPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tamrine1AP/AnimationToolsPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tamrine1AP/AnimationToolsPanel$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tamrine1AP/AnimationToolsPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tamrine1AP/AnimationToolsPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tamrine1AP/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tamrine1AP/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tamrine1AP/CirclePropertiesPanel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tamrine1AP/CirclePropertiesPanel.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tamrine1AP/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tamrine1AP/MainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tamrine1AP/PaintPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tamrine1AP/PaintPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tamrine1AP/PaintPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tamrine1AP/PaintPanel$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tamrine1AP/PaintPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tamrine1AP/PaintPanel$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tamrine1AP/PaintPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tamrine1AP/PaintPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tamrine1AP/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tamrine1AP/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tamrine1AP/ResizeAnimation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tamrine1AP/ResizeAnimation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tamrine1AP/RunButtonPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tamrine1AP/RunButtonPanel$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tamrine1AP/RunButtonPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tamrine1AP/RunButtonPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tamrine1AP/Shape$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tamrine1AP/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tamrine1AP/Shape.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tamrine1AP/ShapePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tamrine1AP/ShapePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tamrine1AP/ShapePropertiesPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tamrine1AP/ShapePropertiesPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tamrine1AP/ShapePropertiesPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tamrine1AP/ShapePropertiesPanel$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tamrine1AP/ShapePropertiesPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tamrine1AP/ShapePropertiesPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tamrine1AP/ShapePanel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tamrine1AP/ShapePanel$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AnimationMenuPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimationMenuPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AnimationToolsPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimationToolsPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PaintPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaintPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ResizeAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ResizeAnimation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RunButtonPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunButtonPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ShapePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShapePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShapePropertiesPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShapePropertiesPanel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,20 +37,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AnimationToolsPanel.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AnimationToolsPanel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AnimationToolsPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+            <state relative-caret-position="264">
+              <caret line="61" column="69" lean-forward="true" selection-start-line="61" selection-start-column="69" selection-end-line="61" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RunButtonPanel.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AnimationMenuPanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AnimationMenuPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1332#1333#0" expanded="true" />
+                <element signature="e#1402#1403#0" expanded="true" />
+                <element signature="e#1777#1778#0" expanded="true" />
+                <element signature="e#1841#1842#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunButtonPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RunButtonPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="306">
+              <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -62,8 +74,8 @@
       <file leaf-file-name="PaintPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PaintPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2635">
-              <caret line="173" column="57" selection-start-line="173" selection-start-column="57" selection-end-line="173" selection-end-column="57" />
+            <state relative-caret-position="816">
+              <caret line="92" column="63" selection-start-line="92" selection-start-column="63" selection-end-line="92" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,8 +86,8 @@
       <file leaf-file-name="MainFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+            <state relative-caret-position="170">
+              <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,27 +95,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shape.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Shape.java">
+      <file leaf-file-name="ShuffleAnimation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ShuffleAnimation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="96" column="23" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
+            <state relative-caret-position="68">
+              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Animation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Animation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -111,17 +111,46 @@
       <file leaf-file-name="ResizeAnimation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ResizeAnimation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="83" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
+            <state relative-caret-position="-527">
+              <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+              <folding>
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShapePropertiesPanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ShapePropertiesPanel.java">
+      <file leaf-file-name="MoveAnimation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MoveAnimation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1598">
-              <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+            <state relative-caret-position="-761">
+              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Image.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Image.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Circle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Circle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-424">
+              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -149,28 +178,31 @@
         <option value="$PROJECT_DIR$/src/Animatable.java" />
         <option value="$PROJECT_DIR$/src/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/Triangle.java" />
-        <option value="$PROJECT_DIR$/src/Animation.java" />
         <option value="$PROJECT_DIR$/src/Line.java" />
         <option value="$PROJECT_DIR$/src/CirclePropertiesPanel.java" />
-        <option value="$PROJECT_DIR$/src/ShapePanel.java" />
         <option value="$PROJECT_DIR$/src/Point.java" />
         <option value="$PROJECT_DIR$/src/ShapePropertiesPanel.java" />
-        <option value="$PROJECT_DIR$/src/AnimationMenuPanel.java" />
+        <option value="$PROJECT_DIR$/src/Animation.java" />
         <option value="$PROJECT_DIR$/src/MainFrame.java" />
-        <option value="$PROJECT_DIR$/src/Circle.java" />
-        <option value="$PROJECT_DIR$/src/AnimationToolsPanel.java" />
-        <option value="$PROJECT_DIR$/src/PaintPanel.java" />
         <option value="$PROJECT_DIR$/src/ResizeAnimation.java" />
-        <option value="$PROJECT_DIR$/src/RunButtonPanel.java" />
+        <option value="$PROJECT_DIR$/src/MoveAnimation.java" />
         <option value="$PROJECT_DIR$/src/Shape.java" />
+        <option value="$PROJECT_DIR$/src/Circle.java" />
+        <option value="$PROJECT_DIR$/src/ShapePanel.java" />
+        <option value="$PROJECT_DIR$/src/PaintPanel.java" />
+        <option value="$PROJECT_DIR$/src/Image.java" />
+        <option value="$PROJECT_DIR$/src/RunButtonPanel.java" />
+        <option value="$PROJECT_DIR$/src/ShuffleAnimation.java" />
+        <option value="$PROJECT_DIR$/src/AnimationMenuPanel.java" />
+        <option value="$PROJECT_DIR$/src/AnimationToolsPanel.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1044" />
-    <option name="height" value="789" />
+    <option name="x" value="174" />
+    <option name="y" value="183" />
+    <option name="width" value="1401" />
+    <option name="height" value="981" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -301,64 +333,36 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.329806" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29805997" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329806" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22267206" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2388664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39858907" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.329806" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Animatable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Animation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PaintPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -425,13 +429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -580,13 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="47" column="29" selection-start-line="43" selection-start-column="8" selection-end-line="47" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -630,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ShapePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1067">
-          <caret line="68" column="29" lean-forward="true" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Point.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -644,41 +627,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Circle.java">
+    <entry file="file://$PROJECT_DIR$/src/Animation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="49" column="110" selection-start-line="49" selection-start-column="110" selection-end-line="49" selection-end-column="110" />
+        <state relative-caret-position="136">
+          <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnimationMenuPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="231">
+          <caret line="84" column="40" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ShapePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="78" column="25" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ShapePropertiesPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+        <state relative-caret-position="170">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ShapePropertiesPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1598">
-          <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+        <state relative-caret-position="-424">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PaintPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2635">
-          <caret line="173" column="57" selection-start-line="173" selection-start-column="57" selection-end-line="173" selection-end-column="57" />
+        <state relative-caret-position="816">
+          <caret line="92" column="63" selection-start-line="92" selection-start-column="63" selection-end-line="92" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -687,43 +691,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ResizeAnimation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="83" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
+        <state relative-caret-position="-527">
+          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnimationToolsPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/Image.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Animation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="96" column="23" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
+        <state relative-caret-position="276">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MoveAnimation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-761">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RunButtonPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="306">
+          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ShuffleAnimation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnimationMenuPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1332#1333#0" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
+            <element signature="e#1777#1778#0" expanded="true" />
+            <element signature="e#1841#1842#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnimationToolsPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="61" column="69" lean-forward="true" selection-start-line="61" selection-start-column="69" selection-end-line="61" selection-end-column="69" />
         </state>
       </provider>
     </entry>

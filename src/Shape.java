@@ -78,26 +78,15 @@ public abstract class Shape implements Drawable , Animatable {
 
     @Override
     public void step() {
-        Thread thread = new Thread(new Runnable() {
 
-            @Override
-            public void run() {
-                Iterator< Animation > cur = animations.iterator();
-                while ( cur.hasNext() ){
-                    Animation animation = cur.next();
-                    try {
-                        Thread.sleep(animation.stepDelay);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                    animation.animate();
-                }
-            }
-        });
-        thread.start();
+        Iterator<Animation> cur = animations.iterator();
+        while (cur.hasNext()) {
+            Animation animation = cur.next();
+            System.out.println(animation);
+            animation.animate();
+        }
 
     }
-
     @Override
     public void render(Graphics2D g2) {
 

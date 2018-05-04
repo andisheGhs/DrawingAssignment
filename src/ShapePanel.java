@@ -1,3 +1,4 @@
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -9,6 +10,7 @@ public class ShapePanel extends JPanel {
     JButton TriangleButton;
     JButton RectangleButton;
     JButton LineButton;
+    JButton ImageButton;
 
     public JPanel getPaintPanel() {
         return paintPanel;
@@ -25,7 +27,16 @@ public class ShapePanel extends JPanel {
         TriangleButton = new JButton("Triangle");
         RectangleButton = new JButton("Rectangle");
         LineButton = new JButton("Line");
+        ImageButton = new JButton("Image");
         paintPanel = new PaintPanel();
+        ImageButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Image image = new Image(new Point(300 , 300) , paintPanel);
+                paintPanel.addShape(image);
+                paintPanel.repaint();
+            }
+        });
         LineButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -53,7 +64,7 @@ public class ShapePanel extends JPanel {
         RectangleButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Rectangle rectangle = new Rectangle(new Point(400 , 400) , 100 , 100);
+                Rectangle rectangle = new Rectangle(new Point(300 , 300) , 200 , 200);
                 paintPanel.addShape(rectangle);
                 paintPanel.repaint();
             }
@@ -64,6 +75,8 @@ public class ShapePanel extends JPanel {
         circleButton.setPreferredSize(new Dimension(200 , 150));
         TriangleButton.setPreferredSize(new Dimension(200 , 150));
         RectangleButton.setPreferredSize(new Dimension(200 , 150));
+        ImageButton.setPreferredSize(new Dimension(200 , 150));
+        add(ImageButton);
         add(circleButton);
 //        add(TriangleButton);
         add(RectangleButton);

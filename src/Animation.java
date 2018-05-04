@@ -4,7 +4,11 @@ public abstract class Animation implements Animatable {
     boolean animating=true;
     Date nextAnimation=new Date();
     int stepDelay;
+    AnimationMenuPanel animationMenuPanel;
 
+    public void setAnimationMenuPanel(AnimationMenuPanel animationMenuPanel) {
+        this.animationMenuPanel = animationMenuPanel;
+    }
 
     public boolean getAnimating() {
         return animating;

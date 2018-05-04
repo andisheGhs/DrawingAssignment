@@ -90,7 +90,6 @@ public class PaintPanel extends JPanel {
                 if(selectedShape != null) {
                     selectedShape.setLocation(selectedShape.getLocation().add(dif));
                     if ( selectedShape instanceof Line){
-                        System.out.println("instance of line");
                         ((Line) selectedShape).setStartPoint(((Line) selectedShape).getStartPoint().add(dif));
                         ((Line) selectedShape).setEndPoint(((Line) selectedShape).getEndPoint().add(dif));
                     }
@@ -121,8 +120,6 @@ public class PaintPanel extends JPanel {
                         setSelectedShape(cur);
                         previousSelectedShape = cur;
                         System.out.println("selected");
-                        System.out.println(selectedShape);
-//                        shapePropertiesPanel.addPanel( cur.getPropertiesPanel() );
                         shapePropertiesPanel.shape = cur;
                         shapePropertiesPanel.xTextField.setText(String.valueOf(cur.getLocation().getX()));
                         shapePropertiesPanel.yTextField.setText(String.valueOf(cur.getLocation().getY()));
@@ -181,8 +178,10 @@ public class PaintPanel extends JPanel {
 
             @Override
             public void mouseReleased(MouseEvent e) {
-                shapePropertiesPanel.xTextField.setText(String.valueOf(selectedShape.getLocation().getX()));
-                shapePropertiesPanel.yTextField.setText(String.valueOf(selectedShape.getLocation().getY()));
+                if ( selectedShape != null ) {
+                    shapePropertiesPanel.xTextField.setText(String.valueOf(selectedShape.getLocation().getX()));
+                    shapePropertiesPanel.yTextField.setText(String.valueOf(selectedShape.getLocation().getY()));
+                }
                 previousMouseLocation=null;
                 selectedShape=null;
             }
